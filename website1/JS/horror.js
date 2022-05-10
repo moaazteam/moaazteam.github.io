@@ -1,5 +1,12 @@
 //horror===============================================
 
+$(document).ready(() => {
+  $('#hamburger-menu').click(() => {
+    $('#hamburger-menu').toggleClass('active')
+    $('#nav-menu').toggleClass('active')
+  })
+})
+
 const selected = document.querySelector(".selected-69");
 const optionsContainer = document.querySelector(".options-container-69");
 
