@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HBOMAX</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="imagese/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- OwlCarousel2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APPCSS -->
+    <link rel="stylesheet" href="CSS/app.css">
+    <link rel="stylesheet" href="grid.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#mhflip").click(function () {
+                $("#mhpanel").slideToggle("slow");
+            });
+        });
+    </script>
+    <style>
+        #mhpanel,
+        #mhflip {
+            width: 800px;
+            padding: 30px;
+            text-align: center;
+            color: #f30b0b;
+            font-size: 1.8rem;
+            margin-left: 300px;
+            margin-top: 50px;
+            border: solid 1px #f35e5e;
+            border: 0.3rem outset rgb(134, 32, 49);
+            outline: 0.3rem solid rgb(158, 29, 29);
+            box-shadow: 0 0 0 1rem rgb(89, 10, 10);
+            border-radius: 5px;
+        }
+
+        #mhpanel {
+            padding: 50px;
+            display: none;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <img src="images/hbo-max-logo-8BD26F0EE7-seeklogo.com.png" class="img-fluid logo" alt="">
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="home.html" target="_blank">Home</a></li>
+                    <li><a href="home.html #category">Movies</a></li>
+                    <li><a href="about us.html">About us</a></li>
+                    <li>
+                        <a href="login.html" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+
+    <!-- Movies section start -->
+    <section class="mhmovies container" id="mhmovies">
+
+        <div id="mhflip">Movies Action</div>
+        <div id="mhpanel">
+            <ul>
+                <hr>
+                <hr>
+                <hr>
+                <li>Action & crime
+                    <hr>
+                    <a href="play-page.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                        <p>Movie one</p>
+                    </a>
+                    <hr>
+                    <a href="play-page3.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                        <p>Movie Two</p>
+                    </a>
+                </li>
+                <hr>
+                <hr>
+                <li>Action & Mystery
+                    <hr>
+                    <a href="play-page2.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                        <p>Movie one</p>
+                    </a>
+                </li>
+                <hr>
+                <hr>
+                <li>Action & Adventure
+                    <hr>
+                    <a href="play-page4.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                        <p>Movie one</p>
+                    </a>
+                </li>
+                <hr>
+                <hr>
+                <hr>
+            </ul>
+        </div>
+
+
+
+
+        <!-- Movies content -->
+        <div class="mhmovies-content">
+            <!-- Movies box 1 -->
+            <div class="mhmovie-box">
+                <img src="images/film3.jpg" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> Wrath Of Man</h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="play-page.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Movies box 2 -->
+            <div class="mhmovie-box">
+                <img src="images/film5.jpg" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> Army of the Dead</h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="play-page1.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Movies box 3 -->
+            <div class="mhmovie-box">
+                <img src="images/film6.jpg" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> Boss Level</h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="play-page2.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Movies box 4 -->
+            <div class="mhmovie-box">
+                <img src="images/film7.jpg" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> Disney's Cruella </h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="play-page3.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Movies box 5 -->
+            <div class="mhmovie-box">
+                <img src="images/film8.jpg" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> Mortal Kombat </h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="play-page4.html" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Movies box 6 -->
+            <div class="mhmovie-box">
+                <img src="images/film11.jpg" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> The green knight </h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="https://www.youtube.com/watch?v=aRejWo0j7Bs" target="_blank" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Movies box 7 -->
+            <div class="mhmovie-box">
+                <img src="images/film13.jpg" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> The Little Things </h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="https://www.youtube.com/watch?v=1HZAnkxdYuA&t=5s" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Movies box 8 -->
+            <div class="mhmovie-box">
+                <img src="images/film15.jfif" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> Thoso Who Wish Me Dead </h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="https://www.youtube.com/watch?v=kciXOTguPCs" target="_blank" class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Movies box 9 -->
+            <div class="mhmovie-box">
+                <img src="images/film18.jfif" alt="" class="mhmovie-box-img">
+                <div class="mhbox-text">
+                    <h2 class="mhmovie-title"> Zack Snyder's </h2>
+                    <span class="mhmovie-type">Action</span>
+                    <a href="https://www.youtube.com/watch?v=vM-Bja2Gy04&t=46s" target="_blank"
+                        class="mhwatch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Movies section end -->
+
+    <audio controls autoplay loop class="Harmas">
+        <source src="images/videoplayback.mp4" type="audio/mp4">
+        Your browser does not support the audio element.
+    </audio>
+
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <img src="images/279113327_1163622911132648_271296799338840058_n.png" alt="" class="footer-logo">
+                <p class="slogan">Movies & TV Shows, Online cinema,
+                    Movie database HTML Template.</p>
+
+
+                <div class="social-link">
+
+                    <a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-tiktok"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="footer-links">
+                <ul>
+
+                    <h4 class="link-heading">HBOMAX</h4>
+
+                    <li class="link-item"><a href="#">About us</a></li>
+                    <li class="link-item"><a href="#">My profile</a></li>
+                    <li class="link-item"><a href="#">Pricing plans</a></li>
+                    <li class="link-item"><a href="#">Contacts</a></li>
+
+                </ul>
+
+                <ul>
+
+                    <h4 class="link-heading">Browse</h4>
+
+                    <li class="link-item"><a href="#">Live Tv</a></li>
+                    <li class="link-item"><a href="#">Live News</a></li>
+                    <li class="link-item"><a href="#">Live Sports</a></li>
+                    <li class="link-item"><a href="#">Streaming Library</a></li>
+
+                </ul>
+
+                <ul>
+
+                    <li class="link-item"><a href="#">TV Shows</a></li>
+                    <li class="link-item"><a href="#">Movies</a></li>
+                    <li class="link-item"><a href="#">Kids</a></li>
+                    <li class="link-item"><a href="#">Collections</a></li>
+
+                </ul>
+
+                <ul>
+
+                    <h4 class="link-heading">Help</h4>
+
+                    <li class="link-item"><a href="#">Account & Billing</a></li>
+                    <li class="link-item"><a href="#">Plans & Pricing</a></li>
+                    <li class="link-item"><a href="#">Supported devices</a></li>
+                    <li class="link-item"><a href="#">Accessibility</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-copyright">
+
+            <div class="copyright">
+                <p>&copy; copyright 2022 HBOMAX</p>
+            </div>
+
+            <div class="wrapper">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms and conditions</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- SCRIPT -->
+    <!-- jQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OwlCarousel2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- APPSCRIPT -->
+    <script src="JS/act.js"></script>
+    <!-- Swiper  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</body>
+
+</html>
