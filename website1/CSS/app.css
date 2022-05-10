@@ -3207,7 +3207,7 @@ header, nav { background: var(--rich-black-fogra-29); }
   */
  
  .load-more {
-   background: var(--oxford-blue);
+   background: #c0392b;
    display: block;
    padding: 20px 50px;
    margin: auto;
@@ -3217,7 +3217,7 @@ header, nav { background: var(--rich-black-fogra-29); }
    color: black;
  }
  
- .load-more:hover { background: var(--light-azure); }
+ .load-more:hover { background: white; }
  
  
  
@@ -3321,18 +3321,7 @@ header, nav { background: var(--rich-black-fogra-29); }
   * load more button 
   */
  
- .load-more {
-   background: var(--oxford-blue);
-   display: block;
-   padding: 20px 50px;
-   margin: auto;
-   font-size: var(--fs-sm);
-   font-weight: var(--fw-5);
-   border-radius: 15px;
-   color: black;
- }
  
- .load-more:hover { background: var(--light-azure); }
  
  /*vedio responsive */
 
